@@ -100,7 +100,7 @@ export default function Home() {
             {industries.map((industry, index) => (
               <div
                 key={index}
-                className={`w-full  rounded-[32px] sticky z-[${10 - index}] ${
+                className={`w-full  rounded-xl sticky z-[${10 - index}] ${
                   index === 0
                     ? "top-[50px] bg-blue"
                     : index === 1

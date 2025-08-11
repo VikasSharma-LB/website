@@ -46,7 +46,7 @@ const page = () => {
             <h4 className="text-2xl md:text-4xl font-semibold text-white">
               About Us
             </h4>
-            <p className="text-white/70 mt-4 text-sm 2xl:text-base lg:text-base leading-relaxed">
+            <p className="mt-4   text-justify text-white/70 tracking-normal leading-relaxed text-lg font-normal">
               At Lume Byte Technologies, we are committed to shaping the future
               of digital innovation through tailored software development,
               scalable platforms, and expert IT consulting. With a passion for
@@ -55,7 +55,7 @@ const page = () => {
               and more. Our solutions are crafted with precision, ensuring
               security, performance, and adaptability for tomorrow’s demands.
             </p>
-            <p className="text-white/70 mt-4 text-sm 2xl:text-base lg:text-base leading-relaxed">
+            <p className=" mt-4   text-justify text-white/70 tracking-normal leading-relaxed text-lg font-normal">
               Driven by a team of skilled engineers, designers, and strategists,
               we combine technical excellence with user-focused design. From
               startups to enterprises, we empower clients to accelerate growth,
@@ -64,7 +64,7 @@ const page = () => {
               scaling an existing platform, Lume Byte is your trusted technology
               partner.
             </p>
-            <p className="text-white/70 mt-4 2xl:text-base lg:text-base leading-relaxed">
+            <p className="mt-4   text-justify text-white/70 tracking-normal leading-relaxed text-lg font-normal">
               Let us help you transform your vision into a powerful,
               future-ready digital reality.
             </p>
@@ -127,12 +127,12 @@ const page = () => {
             <h3 className="text-center text-2xl md:text-4xl font-medium text-white">
               Our Vision
             </h3>
-            <p className="text-white/70 tracking-[1px] leading-relaxed text-lg font-normal">
+            <p className="text-white/70 tracking-normal leading-relaxed text-lg font-normal text-justify ">
               At Lume Byte Technologies, our vision is to lead the global
               transformation of industries through next-generation IT solutions
               that are intelligent, scalable, and future-ready.
             </p>
-            <p className="text-white/70 tracking-[1px] leading-relaxed text-lg font-normal">
+            <p className="text-white/70 tracking-normal leading-relaxed text-lg font-normal text-justify">
               We are dedicated to helping businesses thrive in a digital-first
               world by delivering secure, innovative, and adaptable technology
               solutions. By staying ahead of tech trends and continuously
@@ -140,7 +140,7 @@ const page = () => {
               — shaping a smarter, more connected future for our clients and the
               world.
             </p>
-            <p className="text-white/70 tracking-[1px] leading-relaxed text-lg font-normal">
+            <p className="text-white/70 tracking-normal leading-relaxed text-lg font-normal text-justify">
               We envision a future where technology empowers every organization
               to operate smarter, faster, and more efficiently—driving growth,
               innovation, and lasting digital transformation across industries.{" "}
@@ -170,21 +170,21 @@ const page = () => {
             <h3 className="text-center text-2xl md:text-4xl font-medium text-white">
               Our Mission
             </h3>
-            <p className="text-white/70 tracking-[1px] leading-relaxed text-lg font-normal">
+            <p className="text-white/70 tracking-normal leading-relaxed text-lg font-normal text-justify">
               At Lume Byte Technologies, our mission is to empower businesses
               worldwide through innovative, secure, and scalable digital
               solutions. We are committed to delivering exceptional value by
               combining technology expertise with a deep understanding of our
               clients' goals.
             </p>
-            <p className="text-white/70 tracking-[1px] leading-relaxed text-lg font-normal">
+            <p className="text-white/70 tracking-normal leading-relaxed text-lg font-normal text-justify">
               Through collaborative partnerships and a focus on quality, we
               develop tailored software, cloud infrastructure, and IT consulting
               services that drive measurable growth and long-term success. Our
               mission is to be a trusted technology partner in your journey
               toward digital excellence.
             </p>
-            <p className="text-white/70 tracking-[1px] leading-relaxed text-lg font-normal">
+            <p className="text-white/70 tracking-normal leading-relaxed text-lg font-normal text-justify">
               We strive to build lasting relationships by delivering impactful
               results and staying committed to innovation. Every solution is
               guided by our passion for excellence and a promise to help clients

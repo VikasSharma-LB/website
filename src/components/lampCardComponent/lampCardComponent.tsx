@@ -43,26 +43,28 @@ const LampCard: React.FC<LampCardProps> = ({
 
         {/* Card Content */}
         <div className="space-y-3 relative z-10">
-          <div className="relative w-[40px] h-[40px]">
-            {icon && (
-              <Image
-                src={icon}
-                alt="service icon"
-                width={40}
-                height={40}
-                className="absolute inset-0 object-contain transition-opacity duration-300 group-hover:opacity-0"
-              />
-            )}
-            {hoverIcon && (
-              <Image
-                src={hoverIcon}
-                alt="hover icon"
-                width={40}
-                height={40}
-                className="absolute inset-0 object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-              />
-            )}
-          </div>
+        <div className="relative w-[40px] h-[40px]">
+  {icon && (
+    <Image
+      src={icon}
+      alt="service icon"
+      width={40}
+      height={40}
+      className="absolute inset-0 object-contain transition-opacity duration-300 group-hover:opacity-0 md:opacity-100"
+    />
+  )}
+  {hoverIcon && (
+    <Image
+      src={hoverIcon}
+      alt="hover icon"
+      width={40}
+      height={40}
+      className="absolute inset-0 object-contain transition-opacity duration-300 
+                 opacity-100 md:opacity-0 md:group-hover:opacity-100"
+    />
+  )}
+</div>
+
           <h3 className="text-xl font-normal">{title}</h3>
           <div className="text-base text-white/70 font-normal 2xl:w-[80%] w-full">
             {description}

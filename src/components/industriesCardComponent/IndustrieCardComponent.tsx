@@ -25,7 +25,7 @@ const IndustrieCardComponent: React.FC<IndustrieCardProps> = ({
 }) => {
   return (
     <div
-      className={`border border-white/10 rounded-xl p-6 flex flex-col md:flex-col-reverse lg:flex-row xl:flex-row 2xl:flex-row gap-6 items-center w-full ${
+      className={`border border-white/10 rounded-xl p-6 flex flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row 2xl:flex-row gap-6 items-center w-full ${
         index % 2 === 0 ? "bg-blueGraient2" : "bg-blueGraient"
       }`}
     >
@@ -37,7 +37,7 @@ const IndustrieCardComponent: React.FC<IndustrieCardProps> = ({
         </p>
 
         {/* Feature Buttons */}
-        <div className="flex gap-2 flex-wrap mt-6">
+        <div className="2xl:flex xl:flex md:flex lg:flex sm:flex hidden gap-2 flex-wrap mt-6">
           {features.map((feature, i) => (
             <button
               key={i}
@@ -49,7 +49,7 @@ const IndustrieCardComponent: React.FC<IndustrieCardProps> = ({
         </div>
 
         {/* Explore More */}
-        <div className="mt-12">
+        <div className="2xl:mt-12 xl:mt-12 lg:mt-12 md:mt-12 sm:mt-8 mt-4">
           <Link href={exploreLink} className="text-white/70 flex gap-2 items-center">
             {exploreText}
             <span className="bg-primary rounded-full p-1 font-semibold">

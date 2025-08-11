@@ -1,0 +1,39 @@
+.lampLight {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  width: 100px;
+  height: 70px;
+  transform: translateX(-50%) scaleY(1); // mobile default (always on)
+  background: linear-gradient(
+    to bottom,
+    rgba(25, 78, 255, 0.4) 0%,
+    rgba(25, 78, 255, 0.15) 40%,
+    rgba(25, 78, 255, 0.05) 70%,
+    transparent 100%
+  );
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  filter: blur(6px);
+  opacity: 1; // always on for mobile
+  z-index: 5;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+
+  // Desktop: hide by default
+  @media (min-width: 769px) {
+    opacity: 0;
+    transform: translateX(-50%) scaleY(0.2);
+  }
+}
+
+.cardWrapper {
+  position: relative;
+
+  // Desktop: enable on hover
+  @media (min-width: 769px) {
+    &:hover .lampLight {
+      opacity: 1;
+      transform: translateX(-50%) scaleY(1);
+    }
+  }
+}
